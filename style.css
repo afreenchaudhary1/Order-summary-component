@@ -130,11 +130,8 @@ body{
 
 
 
-@media  screen and (max-width: 576px){
 
-    #main {
-        width: 350px;
-        min-width: 350px;
-    }   
+  @media screen and (min-width: 1366px) {
+    #image img {width:576px}
 }
 
