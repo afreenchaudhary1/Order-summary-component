@@ -142,18 +142,40 @@ body{
 }
 
 
-@media screen and (max-width: 360px) {
-  #main .description .price {
-      flex-direction: column;
-      gap: 1rem;
+@media  screen and (max-width: 576px){
+    
+  body {
+      padding: 0;
+      background-image: url(images/pattern-background-mobile.svg);
+  }
+
+  h1 {
+      font-size: 1.3rem;
+  }
+
+  p {
+      font-size: 0.8rem;
   }
   
-  #main .description .price > p {
-      font-weight: 900;
-      color: hsl(225, 100%, 98%);
-      margin-right: 0;
+  #main{
+      max-width: 310px;
   }
-  
+
+  .description{
+      padding: 10% 7%;
+  }
+
+  .description > p{
+      font-size: 0.95rem;
+  }
+
+  .price > p {
+      font-size: 0.8rem
+  }
+
+  .buttons{
+      font-size: 0.9rem;
+      padding: 6%;
+  }
+
 }
-
-
