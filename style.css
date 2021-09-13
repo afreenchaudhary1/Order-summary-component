@@ -131,7 +131,18 @@ body{
 
 
 
-  @media screen and (min-width: 1366px) {
-    #image img {width:576px}
+  @media screen and (min-width: 375px) {
+  body{
+    background-image: url(images\pattern-background-mobile.svg);
+  }
+  #main{
+  margin: auto;
+  width: 200px;
+  margin-top: 50px;
+  background-color: hsl(225, 100%, 98%);
+  border-radius: 1rem;
+  overflow: hidden;
+  }
+
 }
 
